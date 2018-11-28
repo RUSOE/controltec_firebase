@@ -1,0 +1,59 @@
+<resources>
+
+    <!--Tema customizado -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="dividerHorizontal">@color/divider</item>
+        <item name="dividerVertical">@color/divider</item>
+
+        <!-- Formulario -->
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Estilo de los botones de las cartas. -->
+    <!-- Boton naranja sin fondo -->
+    <style name="PrimaryFlatButton" parent="Theme.AppCompat.Light">
+        <item name="android:buttonStyle">
+            @style/Widget.AppCompat.Button.Borderless.Colored
+        </item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+    <!-- Boton fondo naranja. -->
+    <style name="PrimaryButtonColored" parent="Theme.AppCompat.Light">
+        <item name="android:buttonStyle">
+            @style/Widget.AppCompat.Button.Colored
+        </item>
+        <item name="colorAccent">@color/accent</item>
+    </style>
+    <!-- Boton blanco sin fondo. -->
+    <style name="PrimaryFlatButtonWhite" parent="Theme.AppCompat.Light">
+        <item name="android:buttonStyle">
+            @style/Widget.AppCompat.Button.Borderless.Colored
+        </item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+    <!-- Boton de fondo Blanco -->
+    <style name="PrimaryButtonColoredWhite" parent="Theme.AppCompat.Light">
+        <item name="android:buttonStyle">
+            @style/Widget.AppCompat.Button.Colored
+        </item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+
+</resources>

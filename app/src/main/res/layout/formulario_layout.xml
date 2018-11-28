@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:showIn="@layout/activity_registrode_practica">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <include
+        layout="@layout/cardview_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/letras">
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nombre "
+                android:singleLine="true"
+                android:textColor="@color/letras"
+                android:textColorHint="@color/letras" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_carrera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/letras">
+
+            <EditText
+                android:id="@+id/input_carrera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Carrera "
+                android:singleLine="true"
+                android:textColor="@color/letras"
+                android:textColorHint="@color/letras" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_numcontrol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/letras">
+
+            <EditText
+                android:id="@+id/input_numcontrol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Numero de Control "
+                android:singleLine="true"
+                android:textColor="@color/letras"
+                android:textColorHint="@color/letras" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_semestre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/letras">
+
+            <EditText
+                android:id="@+id/input_semestre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Semestre "
+                android:singleLine="true"
+                android:textColor="@color/letras"
+                android:textColorHint="@color/letras" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/letras">
+
+            <EditText
+                android:id="@+id/input_fecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fecha y hora "
+                android:singleLine="true"
+                android:textColor="@color/letras"
+                android:textColorHint="@color/letras" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/letras">
+
+            <EditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Correo "
+                android:inputType="textEmailAddress"
+                android:textColor="@color/letras"
+                android:textColorHint="@color/letras" />
+        </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_confirmar_formulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/confirmar_text"
+        android:textColor="@color/accent"
+        android:theme="@style/PrimaryButtonColoredWhite" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

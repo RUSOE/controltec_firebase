@@ -1,0 +1,22 @@
+Index: app/src/main/java/com/ittepic/controltec/adapters/Super_RecyclerAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/ittepic/controltec/adapters/Super_RecyclerAdapter.java	(date 1539578729803)
++++ app/src/main/java/com/ittepic/controltec/adapters/Super_RecyclerAdapter.java	(date 1539578729803)
+@@ -91,12 +91,12 @@
+         v.textViewTituloPractica.setText(practica.getTitle());
+         v.textViewDescripcionPractica.setText(practica.getDescripcion());
+         v.textViewTipoPractica.setText(practica.getTipo());
+-        Picasso.get().load(practica.mFoto).into(v.imageViewPractica);
++        Picasso.get().load(practica.getFoto()).into(v.imageViewPractica);
+ 
+         v.btnAbrirPractica.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View view) {
+-                mListener.ImageViewOnClick(view,practica.mId,practica.getTipo());
++                mListener.ImageViewOnClick(view,practica.getId(),practica.getTipo());
+             }
+         });
+     }

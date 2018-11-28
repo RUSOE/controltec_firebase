@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "836633198546",
+    "firebase_url": "https://realtimecontroltec.firebaseio.com",
+    "project_id": "realtimecontroltec",
+    "storage_bucket": "realtimecontroltec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836633198546:android:8b94cae8d2bfcbec",
+        "android_client_info": {
+          "package_name": "com.ittepic.controltec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836633198546-eqhfc59e1u0l7vf93nab17biid45tehu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkoqRBPhzhUubVISC6s8fADt8m_uxndek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
